@@ -675,11 +675,13 @@ img {
   content: "";
   margin-right: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
 }
 .modal-form-check:checked + .icon-check-box {
-  background-image: url(../images/check.svg);
   background-origin: border-box;
   border-color: var(--color-background-hover);
+  background-color: var(--color-background-hover);
+  fill: var(--color-logo-3);
 }
 /*
 .modal-form-check:focus + .icon-check-box {
