@@ -601,6 +601,7 @@ img {
   flex-direction: column;
 }
 .modal-form-field {
+  margin-bottom: 8px;
 }
 .modal-form-input {
   width: 100%;
